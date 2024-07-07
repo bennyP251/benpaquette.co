@@ -1,0 +1,24 @@
+body {
+    background-color: #709775;
+  }
+  
+  h1 {
+    color: brown;
+    font-size: 70px;
+    text-align: center;
+  }
+  #Header {
+    color: firebrick;
+    text-align: center;
+    font-size: 25px;
+  }
+  #tabs {
+    color: firebrick;
+    text-align: center;
+  }
+  #homepagetable {
+    text-align: center;
+    margin: auto;
+    width: 98%;
+    border: 1px solid;
+  }
