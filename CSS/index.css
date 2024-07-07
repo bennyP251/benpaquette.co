@@ -7,10 +7,15 @@ body {
     font-size: 70px;
     text-align: center;
   }
-  #Header {
+  #header {
     color: firebrick;
     text-align: center;
     font-size: 25px;
+    }
+  #quote {
+    color: gold;
+    text-align: center;
+    font-style: italic;
   }
   #tabs {
     color: firebrick;
