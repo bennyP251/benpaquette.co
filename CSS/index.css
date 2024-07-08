@@ -1,24 +1,24 @@
 body {
-    background-color: #709775;
+    background-color: #242424;
   }
   
   h1 {
-    color: brown;
+    color: #02B875;
     font-size: 70px;
     text-align: center;
   }
   #header {
-    color: firebrick;
+    color: #02B875;
     text-align: center;
     font-size: 25px;
     }
   #quote {
-    color: gold;
+    color: #FFFFFF;
     text-align: center;
     font-style: italic;
   }
   #tabs {
-    color: firebrick;
+    color: #02B875;
     text-align: center;
   }
   #homepagetable {
