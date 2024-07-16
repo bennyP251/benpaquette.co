@@ -11,7 +11,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    /* background-image: url();*/
+    background-image: url(../CSS/images/background1.jpg);
     background-size: cover;
     background-position: center;
     
@@ -31,7 +31,7 @@ nav ul li{
     margin: 10x 20x;
 }
 .logo{ 
-    width: 225px;
+    width: 475px;
     margin-left: 180px;
 }
 nav ul li{
@@ -40,7 +40,7 @@ nav ul li{
     margin: 10px 40px;
 }
 nav ul li a{
-    color: #EBF2EB;
+    color: #02B875;
     text-decoration: none;
     font-size: 32px;
     position: relative;
@@ -98,4 +98,50 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: #EBF2EB;
+}
+#sub-title-body{
+    line-height: 20px;
+    margin-top: 8px;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #02B875;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color:#02B875 ;
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+.btn.btn2{
+    display: inline-block;
+    background: #02B875;
 }
