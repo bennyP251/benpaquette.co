@@ -11,7 +11,7 @@
     <div id="header">
         <div id="container">
             <nav>
-                <img src="images/logo.png" class="logo">
+                <img src="../CSS/images/logo_background.png" class="logo">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Me</a></li>
@@ -26,7 +26,79 @@
             </div>
         </div>
     </div>
-        
+    <!-----------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="about-col-1" src="../CSS/images/headshot.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="sub-title-body">Hello! I am a young professional who is looking to 
+                        transition into the world of information technology. 
+                        I have an extensive background in Health Science and Kinesiology 
+                        through my gradute studies, but I had the oppurtunity to work 
+                        within multiple research facilities which gave me a broader interest 
+                        in coding, computers, and hardware mangement.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Hardware/Software</span><br>Windows OS, MacOS, Google Workspace, Microsoft 365</li>
+                                <li><span>Administration</span><br>Organized, Communicaticate Effecively, & Able to Manage a Team, </li>
+                                <li><span>Other</span><br>Basic HTML, CSS, JS, Photoshop, Adobe Premier, & ChatGPT/AI</li>
+                            </ul>
+                            
+                        </div><div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Clinical Trials Coordinator at Louisiana State University</li>
+                                <li><span>2022 - 2023</span><br>Lab Coordinator at Georgia Southern University</li>
+                                <li><span>2021 - 2022</span><br>Research Assistant at Georgia Southern University</li>
+                            </ul>
+                            
+                        </div><div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Masters of Kinesiology from Georgia Southern University</li>
+                                <li><span>2021</span><br>Bachelor of Science from Springfield College.</li>
+                                <li><span>Certifications</span><br>CompTIA A+</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------Contact------------------>
+    
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
 
     </body>
     </html>
