@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #242424;
     color: #EBF2EB;
@@ -187,7 +190,7 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     color: #EBF2EB;
-    transition: background 0.5s;
+    background-color: #242424;
 }
 .btn:hover{
     background: #02B875;
@@ -201,8 +204,7 @@ nav ul li a:hover::after{
 }
 form input, form textarea{
     width: 100%;
-    border: 0;
-    outline: none;
+    border: 1px solid #02B875;
     background: #262626;
     padding: 15px;
     margin: 15px 0;

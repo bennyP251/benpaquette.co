@@ -1,0 +1,87 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #242424;
+}
+.title{
+    margin-top: 30px;
+    font-size: 110px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.labels{
+    color: #02B875;
+    font-size: 50px;
+    margin-left: 25px;
+}
+div.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 30%;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #02B875;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10x 20x;
+}
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #02B875;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.camera{
+  font-size: 23px;
+  color: #EBF2EB;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.header-text p span{
+  color: #02B875;
+}
