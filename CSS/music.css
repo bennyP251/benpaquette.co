@@ -71,15 +71,26 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #02B875;
 }
+
 /*-------------music-----------------*/
 #music{
     background-color: aqua;
 }
 #playlist_header{
-    border: 1px solid greenyellow;
+    border: 1px solid #02B875;
+    width: 33%;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+}
+#playlist_desc{
+    text-align: center;
+    border: 1px solid yellow;
+    border-radius: 12px;
 }
 #playlist_box{
-    padding: 10px;
+    padding: 1%;
 }
 
 
