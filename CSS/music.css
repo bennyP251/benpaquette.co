@@ -75,6 +75,14 @@ nav ul li a:hover::after{
 #music{
     background-color: aqua;
 }
+#playlist_header{
+    border: 1px solid greenyellow;
+}
+#playlist_box{
+    padding: 10px;
+}
+
+
 /*--------------Contact--------------*/
 .contact-left{
     flex-basis: 35%;
