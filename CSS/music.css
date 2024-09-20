@@ -88,6 +88,7 @@ nav ul li a:hover::after{
     text-align: center;
     border: 1px solid yellow;
     border-radius: 12px;
+    
 }
 #playlist_box{
     padding: 1%;
