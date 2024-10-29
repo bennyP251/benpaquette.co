@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music</title>
+        <link rel="stylesheet" href="../CSS/music.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="https://kit.fontawesome.com/3e341576aa.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="../CSS/images/logo_background.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Workout Plans</a></li>
+                    <li><a href="../HTML/music.html">Music</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <!----------------Playlists------------------>
+    <div id="playlists">
+        <p>Intro to the page you are currently on right this moment that you are here to view music of Ben's liking</p>
+        <table style="width: 100%; padding-top: 10px;">
+            <tr>
+                <th id="playlist_header">Playlist 1</th>
+                <th id="playlist_header">Playlist 2</th>
+                <th id="playlist_header">Playlist 3</th>
+            </tr>
+            <tr>
+                <td id="playlist_box"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3jqLEV4FNSL3rzs0K5nCJo?utm_source=generator&theme=0" width="100%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></td>
+                <td id="playlist_box"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/74vKSPXt5FhID78AOABShR?utm_source=generator&theme=0" width="100%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></td>
+                <td id="playlist_box"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0u02iJ26p3VE8neugeoRiW?utm_source=generator&theme=0" width="100%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></td>
+            </tr>
+            <tr>
+                <td id="playlist_desc">An playlist thats updated weekly<br>to give you the Top 50 songs!</td>
+                <td id="playlist_desc">Windows down, sun shining, but dont you dare expect country in this playlist!</td>
+                <td id="playlist_desc">Variety of music to listen in the background while youre gaming away!</td>
+            </tr>
+        </table>
+    </div>
+    
+    <!----------------Contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>paquetteb21@gmail.com</p>
+                    <p>(603) 275-6148</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/benjamin-paquette-/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Paquette_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+    </html>
