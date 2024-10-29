@@ -2,109 +2,100 @@
 <html lang="en">
     <head>
         <title>Home Page</title>
+        <link rel="shortcut icon" type="image/png" href="../Media/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
         <link rel="stylesheet" href="../CSS/index.css"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <script src="https://kit.fontawesome.com/3e341576aa.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
+        <div>
+            <h1 id="benpaquette">Ben Paquette</h1>
+        </div>
     <div id="header">
-        <div id="container">
+        <div id="container-header">
             <nav>
-                <img src="../CSS/images/logo_background.png" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="HTML/gallery.html">Gallery</a></li>
-                    <li><a href="#">Workout Plans</a></li>
-                    <li><a href="#">Music</a></li>
-                    <!----<i class="fa-solid fa-x" onclick="closemenu()"></i>--->
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../HTML/itcareer.html">IT Career</a></li>
+                    <li><a href="#healthwellness">Health & Wellness</a></li>
+                    <li><a href="../HTML/gallery.html">Gallery</a></li>
+                    <li><a href="#projects">Projects</a></li>
                 </ul>
-               <!------ <i class="fa-solid fa-bars" onclick="openmenu()"></i>---->
             </nav>
-            <div class="header-text">
-                <p>Information Technology Professional</p>
-                <h1 class="quote">"I always thought the idea<br> of <span>Education</span> was to learn <br>to think for <span>Yourself</span> "</h1>
-            <p class="author"> ~ Robin Williams</p>
-            </div>
-        </div>
-    </div>
-    <!-----------about------------->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img class="about-col-1" src="../CSS/images/headshot.png">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p id="sub-title-body">Hello! I am a young professional who is looking to 
-                        transition into the world of information technology. 
-                        I have an extensive background in Health Science and Kinesiology 
-                        through my gradute studies, but I had the oppurtunity to work 
-                        within multiple research facilities which gave me a broader interest 
-                        in coding, computers, and hardware mangement.</p>
-
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>Hardware/Software</span><br>Windows OS, MacOS, Google Workspace, Microsoft 365</li>
-                                <li><span>Administration</span><br>Organized, Communicaticates Effecively & Able to Manage a Team, </li>
-                                <li><span>Other</span><br>Basic HTML, CSS, JS, Photoshop, Adobe Premier, & ChatGPT/AI</li>
-                            </ul>
-                            
-                        </div><div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>2023 - 2024</span><br>Clinical Trials Coordinator at Louisiana State University</li>
-                                <li><span>2022 - 2023</span><br>Lab Coordinator at Georgia Southern University</li>
-                                <li><span>2021 - 2022</span><br>Research Assistant at Georgia Southern University</li>
-                            </ul>
-                            
-                        </div><div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2023</span><br>Masters of Kinesiology from Georgia Southern University</li>
-                                <li><span>2021</span><br>Bachelor of Science from Springfield College.</li>
-                                <li><span>Certifications</span><br>CompTIA A+</li>
-                            </ul>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!----------------Contact------------------>
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p>paquetteb21@gmail.com</p>
-                    <p>(603) 275-6148</p>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/benjamin-paquette-/"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    <a href="/CSS/images/Paquette_Resume.pdf" download class="btn btn2"> Download Resume</a>
-                </div>
-                <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
-            </div>
         </div>
     </div>
 
+    <!------Quote-------->
+
+    <div class="header-text">
+        <p class="job-title">Information Technology Professional</p>
+            <h1 class="quote">"I always thought the idea<br> of <span>Education</span> was to learn <br>to think for <span>Yourself</span> "</h1>
+        <p class="author"> ~ Robin Williams</p>
+    </div> 
+
+    <!-----------Colors Used------------->
+    <div class="color-palette">
+        <div class="color-box" style="background-color: #5F6F52;">
+            <p style="color: white;"></p>
+        </div>
+        <div class="color-box" style="background-color: #A9B388;">
+            <p style="color: white;"></p>
+        </div>
+        <div class="color-box" style="background-color: #FEFAE0;">
+            <p style="color: white;"></p>
+        </div>
+        <div class="color-box" style="background-color: #B99470;">
+            <p style="color: white;"></p>
+        </div>
+        <div class="color-box" style="background-color: XXX;">
+            <p style="color: white;"></p>
+        </div>
+        <div class="color-box" style="background-color: XXX;">
+            <p style="color: white;"></p>
+        </div>
 
 
+    </div>
+  
+
+    <!---------- Footer ------------>
+
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="mailto:paquetteb21@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/bennyP251/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/benjamin-paquette-/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="../index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="../HTML/itcareer.html">IT Career</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Health & Wellness</a></li>
+          <li class="menu__item"><a class="menu__link" href="../HTML/gallery.html">Gallery</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
+    
+        </ul>
+        <p>&copy;2024 Benjamin Paquette | All Rights Reserved</p>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
+<!-- -------Scripts ------------->
 
 
     <script>
