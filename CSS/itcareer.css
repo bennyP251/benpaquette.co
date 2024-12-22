@@ -195,7 +195,7 @@ p {
 } 
 
 .comptia { 
-    width: 50%; 
+    width: 60%; 
 } 
 
 .networking { 
@@ -203,10 +203,10 @@ p {
 } 
 
 .security{
-    width: 7%;
+    width: 20%;
 }
-.javascript{
-    width: 0%;
+.python{
+    width: 15%;
 }
 .container-progressbars{
     padding-left: 10%;
