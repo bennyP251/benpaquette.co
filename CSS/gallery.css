@@ -147,7 +147,6 @@ nav ul li a:hover::after{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 340%;
 }
 
 .social-icon,
