@@ -1,3 +1,5 @@
+/*---------- General Page CSS----------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -12,14 +14,11 @@ body{
     color: #EBF2EB;
 }
 
-/*--------------Begining of Text-------------*/
+/*-------------- Header Section -------------*/
 
 #header{
     width: 100%;
     height: 25vh;
-}
-.container{
-    padding: 10px 10%;
 }
 #container-header{
     text-align: center;
@@ -27,9 +26,6 @@ body{
     justify-content: center;
     height: 10%;
 }
-
-/* Title */
-
 #benpaquette{
     text-align: center;
     color: #FFF;
@@ -84,13 +80,24 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #02B875;
 }
+/*----- End of Header Section ------*/
+
+/*------ Body --------*/
+.container{
+    padding: 10px 10%;
+}
 p { 
     font-size: 150%;
     
 } 
 #about{
-    padding: 80px 0;
+    margin: 80px 80px;
+    padding: 40px 0px; 
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: black;
     color: #EBF2EB;
+    background-color: #2b2b2b;
 }
 .row{
     display: flex;
@@ -100,10 +107,11 @@ p {
 .about-col-1{
     flex-basis: 35%;
 }
-.about-col-1{
+.about-col-1-pic{
     width: 100%;
-    border-radius: 15px;
-    
+    border-radius: 15px;b
+    border: 3px solid;
+    border-color: #02B875 ;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -195,7 +203,7 @@ p {
 } 
 
 .comptia { 
-    width: 50%; 
+    width: 60%; 
 } 
 
 .networking { 
@@ -203,10 +211,10 @@ p {
 } 
 
 .security{
-    width: 7%;
+    width: 20%;
 }
-.javascript{
-    width: 0%;
+.python{
+    width: 15%;
 }
 .container-progressbars{
     padding-left: 10%;
