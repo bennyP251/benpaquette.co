@@ -1,3 +1,5 @@
+/*---------- General Page CSS----------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -12,14 +14,11 @@ body{
     color: #EBF2EB;
 }
 
-/*--------------Begining of Text-------------*/
+/*-------------- Header Section -------------*/
 
 #header{
     width: 100%;
     height: 25vh;
-}
-.container{
-    padding: 10px 10%;
 }
 #container-header{
     text-align: center;
@@ -27,9 +26,6 @@ body{
     justify-content: center;
     height: 10%;
 }
-
-/* Title */
-
 #benpaquette{
     text-align: center;
     color: #FFF;
@@ -83,6 +79,12 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color: #02B875;
+}
+/*----- End of Header Section ------*/
+
+/*------ Body --------*/
+.container{
+    padding: 10px 10%;
 }
 p { 
     font-size: 150%;
