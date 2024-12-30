@@ -19,6 +19,8 @@ body{
 #header{
     width: 100%;
     height: 25vh;
+    margin-top: 1px;
+    margin-bottom: 1px; 
 }
 #container-header{
     text-align: center;
@@ -82,16 +84,16 @@ nav ul li a:hover::after{
 }
 /*----- End of Header Section ------*/
 
-/*------ Body --------*/
+/*----------------------- Body ---------------------*/
 .container{
-    padding: 10px 10%;
+    padding: 10px 7%;
 }
 p { 
     font-size: 150%;
     
 } 
 #about{
-    margin: 80px 80px;
+    margin: 80px 30px;
     padding: 40px 0px; 
     border-radius: 30px;
     border: 3px solid;
@@ -109,9 +111,11 @@ p {
 }
 .about-col-1-pic{
     width: 100%;
-    border-radius: 15px;b
+    
+    border-radius: 15px;
     border: 3px solid;
-    border-color: #02B875 ;
+    border-color: #02B875;
+    
 }
 .about-col-2{
     flex-basis: 60%;
