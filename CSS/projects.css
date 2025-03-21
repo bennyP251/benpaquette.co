@@ -18,7 +18,7 @@ body{
 
 #header{
     width: 100%;
-    height: 25vh;
+  
     margin-top: 1px;
     margin-bottom: 1px; 
 }
@@ -58,7 +58,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #02B875;
+    background: #57CC99;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -83,10 +83,70 @@ nav ul li a:hover::after{
     color: #02B875;
 }
 
+/*------------------ Body ----------------------*/
+main{
+  padding-bottom: 10%;
+}
+.container{
+  padding: 10px 7%;
+}
+p { 
+  font-size: 150%;
+  
+} 
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15%;
+  padding-right: 8%;
+  padding-left: 8%;
+  
+}
+.column-1, .column-2{
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #22577A;
+  margin: 100px auto 100px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
 
+.project-item {
+  background-color: #444;
+  border: 2px solid;
+  border-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project-item:hover{
+  background-color: #636363;
+}
 
+h2{
+font-size: 2em;
+text-decoration: underline;
+}
 
+h3{
+font-size: 1.5em;
 
+}
+
+#complete{
+  color: #C7F9CC;
+}
+
+#to-do{
+color: #b3f7f8
+
+}
 
 
 
