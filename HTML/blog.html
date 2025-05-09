@@ -28,57 +28,81 @@
             </div>
         </div>
         
-        <main class = "blog-container">
-            <section class = "blog-header">
-                <div class = "container">
-                    <h2 class = "blog-heading">Latest Posts</h2>
-                    <p class = "blog-subheading">Documenting my journey and experiences transitioning from an Athletic Trainer to an IT Professional</p>
+        <div class="blog-section">
+            <h1> Latest Blog Posts</h1>
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../CSS/images/blog-post-1.jpg">
+                    </div>
+                    <div class="blog-content">
+                        <h2>Clinical Trials Coordinator to Information Technology Professional</h2>
+                        <p>This is a glimpse into my journey from working at LSU as a Clinical Trials Coordinator on an NIH R1 grant-funded project to beginning a new career in IT at the University of Georgia.</p>
+                        <h4 class="content-time">4.5 Minute Read</h4>
+                        <a href="Blog Posts/post-1.html">Read More</a>
+                    </div>
                 </div>
-            </section>
-            <hr>
-
-            <!-- Start Blog Post -->
-            <section class = "blog-posts container">
-                <article class = "blog-post">
-                    <header class = "post-header">
-                        <h3 class = post-title>Title</h3>
-                        <div class = "post-meta">
-                            <span class = "post-date">Date</span>
-                            <span class = "post-tags">Hashtags</span>
-                        </div>
-                    </header>
-                </article>
-            </section>
-
-            <div class = "post-content">
-                <p>Stuff</p>
-                <p>More Stuff</p>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../CSS/images/JPG/6.jpg">
+                    </div>
+                    <div class="blog-content">
+                        <h2>The Journey to UGA Helpdesk</h2>
+                        <p>From applying to 30 jobs, to the sad reality of getting your foot in the door. Never counting yourself out and having faith that your hardwork until it pays off.</p>
+                        <h4 class="content-time">5 Minute Read</h4>
+                        <a href=""> Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../CSS/images/JPG/1.jpg">
+                    </div>
+                    <div class="blog-content">
+                        <h2> Blog title 3</h2>
+                        <p>Content</p>
+                        <h4 class="content-time">5 Minute Read</h4>
+                        <a href=""> Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../CSS/images/JPG/1.jpg">
+                    </div>
+                    <div class="blog-content">
+                        <h2> Blog title 4</h2>
+                        <p>Content</p>
+                        <h4 class="content-time">5 Minute Read</h4>
+                        <a href=""> Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../CSS/images/JPG/1.jpg">
+                    </div>
+                    <div class="blog-content">
+                        <h2> Blog title 5</h2>
+                        <p>Content</p>
+                        <a href=""> Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../CSS/images/JPG/1.jpg">
+                    </div>
+                    <div class="blog-content">
+                        <h2> Blog title 6</h2>
+                        <p>Content</p>
+                        <a href=""> Read More</a>
+                    </div>
+                </div>
             </div>
-            <!-- End of Blog Post -->
-
-
-
-
-
-
-
-
-        </main>
-
-
+        </div>
 
 
 
 
     </body>
-
-
-
-
-  
-
-    <!-- -------- Footer ----------
-
+    <!---------- Footer ------------>
     <footer class="footer">
         <div class="waves">
           <div class="wave" id="wave1"></div>
@@ -108,42 +132,9 @@
         <p>&copy;2024 Benjamin Paquette | All Rights Reserved</p>
       </footer>
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
-<!-- -------Scripts ------------->
 
 
-    <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-
-
-    </script>
-
-    <script>
-
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-        function closemenu(){
-            sidemenu.style.right = "-200px";
-        }
-    </script>
-
-    </body>
-    </html>
+</html>

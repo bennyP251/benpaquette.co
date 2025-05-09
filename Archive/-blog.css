@@ -88,100 +88,88 @@ nav ul li a:hover::after{
     color: #02B875;
 }
 
-/* Blog Card Section */
+/* Blog Posts */
 
-.blog-section{
-    margin-bottom: 15%;
+.blog-container{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-top: 1%;
 }
-
-.blog-section h1{
-    font-size: 38px;
-    text-align: center;
-    margin: 50px 0px;
-    color:#02B875;
-}
-
-.blog-cards{
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1.5rem;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-}
-.blog-card{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px ;
-    overflow: hidden;
-    background-color: #ffffff;
-    transition: 0.4s ease;
-}
-.blog-card:hover{
-    transform: translateY(-10px);
-}
-
-.blog-card img{
-    width: 100%;
-    height: auto;
-}
-
-.blog-content{
-    padding: 20px;
-}
-
-.blog-content h2{
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: black;
-}
-.blog-content p{
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.blog-content a{
-    display: inline-block;
-    padding: 10px 20px;
+.blog-header{
     background-color: #02B875;
-    color: #FFF;
-    text-decoration: none;
-    border-radius: 5px;
+    padding-left: 7%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 20px;
+    border-color: white;
+    border: 3px solid;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+ .blog-heading{
+    
+    font-size: 70px;
+    padding-bottom: 4%;
+ }
+
+.blog-subheading{
+    font-size:30px;
 }
 
-.blog-content a:hover{
-    background-color: #555;
+.blog-post{
+  padding-bottom: 5%;
+  padding-top: 3%;
+  background-color: #464545;
+  border-radius: 20px;
+  border: 3px solid;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+.post-title{
+  font-size: 35px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  text-align: center;
 }
 
-.content-time{
-    color: #242424;
-    text-align: right;
+.post-meta{
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
 }
 
-@media screen and (max-width: 1165px){
-    .content-time{
-        text-align: center;
-        padding-bottom: 10px;
-    }
+.post-date{
+  font-size: 30px;
+  color: #02B875;
+  
 }
 
-@media screen and (max-width: 900px){
-    .blog-cards{
-        display: flex;
-        flex-direction: column;
-    }
-    .blog-card{
-        margin: 20px 0px ;
-    }
-    .blog-image img{
-        max-width: 100%;
-    }
-
+.post-tags{
+  font-size: 15px;
+  
 }
+
+.post-content{
+  font-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ----------------- Footer---------------------- */
@@ -199,6 +187,7 @@ nav ul li a:hover::after{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .social-icon,
