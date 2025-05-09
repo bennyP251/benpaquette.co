@@ -91,7 +91,7 @@ nav ul li a:hover::after{
 /* Blog Post Section */
 
 .blog-post{
-    margin-bottom: 25%;
+    margin-bottom: 10%;
 }
 
 .post-meta{
@@ -106,11 +106,14 @@ nav ul li a:hover::after{
     color: #02B875;
 }
 .post-content{
-    margin-left: 23%;
-    margin-right: 23%;
+    margin-left: 19%;
+    margin-right: 19%;
     font-size: 20px;
     text-align: left;
     line-height: 35px;
+    background: #3a3a3a;
+    padding: 30px 30px;
+    border-radius: 10px;
     
 }
 
@@ -189,7 +192,7 @@ nav ul li a:hover::after{
   height: 100px;
   
   /* Change this to the color I want simple photoshop */
-  background: url(../Media/wave_green.png);
+  background: url(/Media/wave_green.png);
   background-size: 1000px 100px;
 }
 
