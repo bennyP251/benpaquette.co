@@ -95,7 +95,7 @@ nav ul li a:hover::after{
 }
 
 .blog-section h1{
-    font-size: 38px;
+    font-size: 45px;
     text-align: center;
     margin: 50px 0px;
     color:#02B875;
@@ -158,14 +158,30 @@ nav ul li a:hover::after{
 }
 
 .content-time{
-    color: #242424;
-    text-align: right;
+    color: #02B875;
+    background-color: #555;
+    border-radius: 5px;
+    padding: 10px 20px;
+} 
+
+.bottom-card{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  text-align: center;
+  letter-spacing: 0.3px;
 }
 
-@media screen and (max-width: 1165px){
-    .content-time{
-        text-align: center;
-        padding-bottom: 10px;
+.category{
+  color:#02B875;
+  background: #555;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1650px){
+    .bottom-card{
+      font-size: 12px;
     }
 }
 
@@ -179,6 +195,10 @@ nav ul li a:hover::after{
     }
     .blog-image img{
         max-width: 100%;
+    }
+    .bottom-card{
+      font-size: 14px;
+      padding: 5px 10px;
     }
 
 }

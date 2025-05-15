@@ -90,10 +90,6 @@ nav ul li a:hover::after{
 
 /* Blog Post Section */
 
-.blog-post{
-    margin-bottom: 10%;
-}
-
 .post-meta{
     text-align: center;
     font-size: 25px;
@@ -114,7 +110,42 @@ nav ul li a:hover::after{
     background: #3a3a3a;
     padding: 30px 30px;
     border-radius: 10px;
-    
+}
+
+/* Previous/Next Buttons */
+
+.transition{
+  margin: 30px 20px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-left: 19%;
+  margin-right: 19%;
+}
+
+.previous {
+  background-color: #02B875;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 7px;
+}
+
+.next {
+  background-color: #02B875;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 7px;
+}
+
+.greyhack{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 5%
 }
 
 
@@ -134,6 +165,7 @@ nav ul li a:hover::after{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 135px;
 }
 
 .social-icon,
