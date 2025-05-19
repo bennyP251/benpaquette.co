@@ -140,12 +140,14 @@ nav ul li a:hover::after{
   border-radius: 7px;
 }
 
-.greyhack{
+.blog-pictures{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding-bottom: 5%
+  width: 60%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border: 3px solid white;
 }
 
 

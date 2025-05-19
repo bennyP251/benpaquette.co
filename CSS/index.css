@@ -13,47 +13,35 @@ body{
     color: #EBF2EB;
 }
 
-/*--------------Begining of Text-------------*/
+/*--------------Header Section-------------*/
 
-#header{
+.title{
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    margin:30px 20px;
+}
+
+.line-break{
+    background-color: #02B875;
+    padding: 2px 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header{
     width: 100%;
-    height: 3vh;
-
+    padding: 10px 10px 
 }
 .container{
     padding: 10px 10%;
 }
-#container-header{
+.container-header{
     text-align: center;
     display: flex;
     justify-content: center;
-    height: 10%;
+    padding: 10px 10px;
 }
-#benpaquette{
-    text-align: center;
-    color: #FFF;
-    font-size: 75px;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-/* Quote */
-
- .quote{
-    font-style: italic;
-    letter-spacing: -1px;
-    
-}
-.author{
-    font-size: 135%;
-    padding-bottom: 15%;
-    margin-top: 20px;
-
-    
-} 
-
-/* Page List Header */
-
 nav{
     display: flex;
     align-items: center;
@@ -64,15 +52,12 @@ nav ul li{
     display: inline-block;
     text-align: center;
     list-style: none;
-    margin: 40px 40px;
-}
-#menu{
-    color: #02B875;
+    padding: 40px 40px;
 }
 nav ul li a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 40px;
     position: relative;
     
 }
@@ -89,18 +74,31 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+
+
+/* Quote */
+
+ .quote{
+    font-style: italic;
+    letter-spacing: -1px;
+}
+.author{
+    font-size: 40px;
+    margin-top: 20px;
+} 
+
 .header-text{
-    margin-top: 12%;
+    margin: 20px 20px;
+    margin-bottom: 60px;
+    padding-bottom: 110px;
     font-size: 30px;
     text-align: center;
 }
-
 .header-text h1{
     font-size: 50px;
     margin-top: 20px;
-    
-  
 }
+
 .header-text h1 span{
     color: #02B875;
 }
@@ -238,50 +236,13 @@ nav .fa{
 }
 
 
-@media only screen and (max-width: 600px){
-
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
-    }
-    .header-text h1{
-        font-size: 30px;
-    }
-    nav .fa{
-        display: block;
-        font-size: 25px;
-    }
-    nav ul {
-        background:#EBF2EB ;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
+@media only screen and (max-width: 1000px){
     nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fa{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    .sub-title{
-        font-size: 40px;
-    }
-    .about-col-1, .about-col-2{
-        flex-basis: 100%;
-    }
-    .about-col-1{
-        margin-bottom: 30px;
-    }
-    .about-col-2{
-        font-size: 14px;
+      padding: 15px 15px;
     }
 }
+
+@media only screen and (max-width: 500px){
+    
+}
+

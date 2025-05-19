@@ -200,8 +200,29 @@ nav ul li a:hover::after{
       font-size: 14px;
       padding: 5px 10px;
     }
+    .blog-section {
+      margin-bottom: 21%;
+    }
 
 }
+
+@media screen and (max-width: 490px){
+    .content-time{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .category{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .blog-content a{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+}
+
 
 
 /* ----------------- Footer---------------------- */
