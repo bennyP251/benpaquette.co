@@ -188,8 +188,15 @@ p {
     padding: 30px 20px;
     margin: 20px 20px;
     margin-bottom: 50px;
-    
 }
+
+.container-progressbars p{
+    padding-bottom: 15px;
+}
+
+.cert-title{
+        padding-bottom: 30px;
+    }
 
 .container-progress { 
     background-color: rgb(192, 192, 192); 
@@ -355,4 +362,123 @@ p {
   100% {
     background-positon-x: 0px;
   }
+}
+
+/* Screen Adjustments */
+
+@media only screen and (max-width: 500px){
+    .content-time{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .category{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .blog-content a{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+    .title{
+      font-size: 30px;
+      padding-top: 1rem;
+    }
+
+    nav ul li{
+      padding: 15px 15px;
+    }
+
+    nav ul li a{
+      font-size: 20px;
+    }
+
+    .footer p{
+      font-size: 0.8rem
+    }
+
+    .about{
+        margin: 0px 15px;
+        padding: 5px 0px;
+    }
+
+    .container{
+        padding: 10px 15px;
+    }
+
+    .row{
+        display: contents;
+    }
+    .about-col-1{
+        flex-basis: 100%;
+        
+    }
+
+    .sub-title{
+        font-size: 40px;
+        padding: 10px 0px;
+        
+    }
+
+    .about-col-2{
+        width: 100%;
+    }
+
+    .sub-title-body {
+        font-size: 18px;
+        
+    }
+    .sub-title-body p{
+        color: #02B875;
+    }
+
+    .tab-links{
+        font-size: 30px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tab-titles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .tab-contents ul li span{
+        font-size: 24px;
+    }
+
+    .tab-contents ul li{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .tab-contents.active-tab{
+        padding-bottom: 10px;
+    }
+
+    .container-progressbars{
+        padding-bottom: 90px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .container-progress{
+        width: 100%;
+    }
+
+    .cert-title{
+        padding-bottom: 15px;
+    }
+
+    .btn.btn2{
+        display:flex;
+        justify-content: center;
+    }
+
 }

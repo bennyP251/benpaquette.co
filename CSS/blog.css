@@ -178,59 +178,6 @@ nav ul li a:hover::after{
 }
 
 
-
-/* Screen Size Adjustments */
-
-
-@media screen and (max-width: 1650px){
-    .bottom-card{
-      font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 900px){
-    .blog-cards{
-        display: flex;
-        flex-direction: column;
-    }
-    .blog-card{
-        margin: 20px 0px ;
-    }
-    .blog-image img{
-        max-width: 100%;
-    }
-    .bottom-card{
-      font-size: 14px;
-      padding: 5px 10px;
-    }
-    .blog-section {
-      margin-bottom: 21%;
-    }
-    .line-break-post{
-      display: none;
-    }
-
-}
-
-@media screen and (max-width: 490px){
-    .content-time{
-      font-size: 12px;
-      padding:8px 10px;
-    }
-
-    .category{
-      font-size: 12px;
-      padding:8px 10px;
-    }
-
-    .blog-content a{
-      font-size: 12px;
-      padding:8px 10px;
-    }
-}
-
-
-
 /* ----------------- Footer---------------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -352,4 +299,72 @@ nav ul li a:hover::after{
   100% {
     background-positon-x: 0px;
   }
+}
+
+
+/* Screen Size Adjustments */
+
+
+@media screen and (max-width: 1650px){
+    .bottom-card{
+      font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .blog-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-card{
+        margin: 20px 0px ;
+    }
+    .blog-image img{
+        max-width: 100%;
+    }
+    .bottom-card{
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+    .blog-section {
+      margin-bottom: 21%;
+    }
+    .line-break-post{
+      display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .content-time{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .category{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .blog-content a{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+    .title{
+      font-size: 30px;
+      padding-top: 1rem;
+    }
+
+    nav ul li{
+      padding: 15px 15px;
+    }
+
+    nav ul li a{
+      font-size: 20px;
+    }
+
+    .footer p{
+      font-size: 0.8rem
+    }
+
 }

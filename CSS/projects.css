@@ -133,11 +133,11 @@ font-size: 1.5em;
 
 }
 
-#complete{
+.complete{
   color: #C7F9CC;
 }
 
-#to-do{
+.to-do{
 color: #b3f7f8
 
 }
@@ -265,4 +265,70 @@ color: #b3f7f8
   100% {
     background-positon-x: 0px;
   }
+}
+
+@media only screen and (max-width: 500px){
+    .content-time{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .category{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+
+    .blog-content a{
+      font-size: 12px;
+      padding:8px 10px;
+    }
+    .title{
+      font-size: 30px;
+      padding-top: 1rem;
+    }
+
+    nav ul li{
+      padding: 15px 15px;
+    }
+
+    nav ul li a{
+      font-size: 20px;
+    }
+
+    .footer p{
+      font-size: 0.8rem
+    }
+
+    .container{
+      padding: 10px 10px;
+  
+    }
+
+    .row{
+      grid-template-columns: 1fr;
+      padding-left: 5px;
+      padding-right: 5px;
+      gap: 35px;
+      
+    }
+
+    p{
+      font-size: 18px;
+    }
+
+    .column-1, .column-2{
+          margin: 5px auto 20px;
+    }
+
+    .to-do, .complete{
+      padding-bottom: 5px;
+      font-size: 24px;
+    }
+
+    .project-item{
+      padding: 15px;
+    }
+
+
+
 }

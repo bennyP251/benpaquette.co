@@ -231,6 +231,8 @@ nav ul li a:hover::after{
 
 
 /*-----------------------css for small screens------------*/
+
+
 nav .fa{
     display: none;
 }
@@ -243,6 +245,34 @@ nav .fa{
 }
 
 @media only screen and (max-width: 500px){
+  .title{
+    font-size: 30px;
+    padding-top: 1rem;
+  }
+  nav ul li a{
+      font-size: 20px;
+    }
+
+  .footer p{
+    font-size: 0.8rem;
+  }
+
+
+  .header-text{
+    font-size: 30px;
+  }
+
+  .header-text h1{
+    font-size: 28px;
+  }
+
+  .header-text p{
+    font-size: 28px;
+  }
+
+  .job-title{
+    display: none;
+  }
     
 }
 
