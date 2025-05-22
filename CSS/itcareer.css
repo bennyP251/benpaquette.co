@@ -366,7 +366,19 @@ p {
 
 /* Screen Adjustments */
 
-@media only screen and (max-width: 500px){
+@media screen and (max-width: 865px){
+    nav ul li a {
+        font-size: 36px;
+    }
+
+    .about-col-1{
+        flex-basis: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 650px){
     .content-time{
       font-size: 12px;
       padding:8px 10px;
@@ -481,5 +493,5 @@ p {
         justify-content: center;
     }
 
-    
+
 }
